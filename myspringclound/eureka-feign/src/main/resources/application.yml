@@ -1,0 +1,13 @@
+server:
+  port: 8088
+eureka:
+  client:
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:8089/eureka
+  instance:
+    hostname: localhost
+feign:
+  hystrix:
+    enabled: true
+  application:
+    name: eureka-feign

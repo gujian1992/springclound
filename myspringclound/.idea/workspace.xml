@@ -1,0 +1,1121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e4088d46-6941-471e-ae12-7610718a64e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/config/MsgReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/config/MsgSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/config/RabbitmqConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/util/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/resources/config/mybatis_config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-feign/src/main/java/com/example/eurekafeign/config/FeignConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-biz/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-biz/src/main/java/lk/project/systemconfig/biz/IconBizService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-biz/src/main/java/lk/project/systemconfig/biz/MallIconBizService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-biz/src/main/java/lk/project/systemconfig/biz/MallModuleBizService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-biz/src/main/java/lk/project/systemconfig/biz/MallModuleConfigBizService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-biz/src/main/java/lk/project/systemconfig/biz/ModuleBizService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-biz/src/main/java/lk/project/systemconfig/biz/ModuleConfigBizService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-dao/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-dao/src/main/java/lk/project/systemconfig/dao/addr/AddrCityMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-dao/src/main/java/lk/project/systemconfig/dao/addr/AddrProvinceMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-dao/src/main/java/lk/project/systemconfig/dao/addr/AddrRegionMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-dao/src/main/java/lk/project/systemconfig/dao/addr/AddrTownMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-dao/src/main/java/lk/project/systemconfig/dao/base/DictMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-dao/src/main/java/lk/project/systemconfig/dao/msg/MsgChannelParamCfgMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-dao/src/main/java/lk/project/systemconfig/dao/sysinfo/IconMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-dao/src/main/java/lk/project/systemconfig/dao/sysinfo/MallIconMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-dao/src/main/java/lk/project/systemconfig/dao/sysinfo/MallModuleConfigMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-dao/src/main/java/lk/project/systemconfig/dao/sysinfo/MallModuleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-dao/src/main/java/lk/project/systemconfig/dao/sysinfo/ModuleConfigMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-dao/src/main/java/lk/project/systemconfig/dao/sysinfo/ModuleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-dao/src/main/java/lk/project/systemconfig/dao/sysinfo/NoticeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-dao/src/main/java/lk/project/systemconfig/dao/sysinfo/SystemShufflingFigureMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-dao/src/main/java/lk/project/systemconfig/dao/sysinfo/TenantPaymentParamConfigMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-dao/src/main/resources/mapper/addr/AddrCityMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-dao/src/main/resources/mapper/addr/AddrProvinceMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-dao/src/main/resources/mapper/addr/AddrRegionMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-dao/src/main/resources/mapper/addr/AddrTownMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-dao/src/main/resources/mapper/sysinfo/IconMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-dao/src/main/resources/mapper/sysinfo/MallIconMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-dao/src/main/resources/mapper/sysinfo/MallModuleConfigMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-dao/src/main/resources/mapper/sysinfo/MallModuleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-dao/src/main/resources/mapper/sysinfo/ModuleConfigMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-dao/src/main/resources/mapper/sysinfo/ModuleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-dao/src/main/resources/mapper/sysinfo/NoticeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-dao/src/main/resources/mapper/sysinfo/SystemShufflingFigureMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-dao/src/main/resources/spring-config-dao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-interface-impl/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-interface-impl/src/main/java/lk/project/systemconfig/inf/impl/msg/MsgChannelInterfaceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-interface-impl/src/main/java/lk/project/systemconfig/inf/impl/sysinfo/AddrInterfaceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-interface-impl/src/main/java/lk/project/systemconfig/inf/impl/sysinfo/IconInterfaceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-interface-impl/src/main/java/lk/project/systemconfig/inf/impl/sysinfo/MallIconInterfaceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-interface-impl/src/main/java/lk/project/systemconfig/inf/impl/sysinfo/MallModuleConfigInterfaceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-interface-impl/src/main/java/lk/project/systemconfig/inf/impl/sysinfo/MallModuleInterfaceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-interface-impl/src/main/java/lk/project/systemconfig/inf/impl/sysinfo/ModuleConfigInterfaceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-interface-impl/src/main/java/lk/project/systemconfig/inf/impl/sysinfo/ModuleInterfaceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-interface-impl/src/main/java/lk/project/systemconfig/inf/impl/sysinfo/NoticeInterfaceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-interface-impl/src/main/java/lk/project/systemconfig/inf/impl/sysinfo/SystemShufflingFigureInterfaceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-interface-impl/src/main/java/lk/project/systemconfig/inf/impl/sysinfo/TenantPaymentParamConfigInterfaceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-interface-impl/src/main/resources/application-dev.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-interface-impl/src/main/resources/application-local.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-interface-impl/src/main/resources/application-pro.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-interface-impl/src/main/resources/application-qa.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-interface-impl/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-interface-impl/src/main/resources/ceres-service.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-interface-impl/src/main/resources/dubbo-server.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-interface-impl/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-interface-impl/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-interface-impl/src/main/webapp/WEB-INF/views/user.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-interface-impl/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-interface/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-interface/src/main/java/lk/project/systemconfig/inf/msg/IMsgChannelInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-interface/src/main/java/lk/project/systemconfig/inf/sysinfo/IAddrInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-interface/src/main/java/lk/project/systemconfig/inf/sysinfo/IConInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-interface/src/main/java/lk/project/systemconfig/inf/sysinfo/IMallConInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-interface/src/main/java/lk/project/systemconfig/inf/sysinfo/IMallModuleConfigInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-interface/src/main/java/lk/project/systemconfig/inf/sysinfo/IMallModuleInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-interface/src/main/java/lk/project/systemconfig/inf/sysinfo/IModuleConfigInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-interface/src/main/java/lk/project/systemconfig/inf/sysinfo/IModuleInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-interface/src/main/java/lk/project/systemconfig/inf/sysinfo/INoticeInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-interface/src/main/java/lk/project/systemconfig/inf/sysinfo/ISystemShufflingFigureInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-interface/src/main/java/lk/project/systemconfig/inf/sysinfo/ITenantPaymentParamConfigInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-model/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-model/src/main/java/lk/project/systemconfig/model/dto/AddressDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-model/src/main/java/lk/project/systemconfig/model/dto/GenAppTokenReqDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-model/src/main/java/lk/project/systemconfig/model/dto/GetIcoParamDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-model/src/main/java/lk/project/systemconfig/model/dto/GetIcoReqDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-model/src/main/java/lk/project/systemconfig/model/dto/GetMallIcoReqDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-model/src/main/java/lk/project/systemconfig/model/dto/GetMsgChannelConfigReqDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-model/src/main/java/lk/project/systemconfig/model/dto/GetTenantPaymentParamConfigReqDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-model/src/main/java/lk/project/systemconfig/model/dto/GetTenantPaymentParamConfigRespDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-model/src/main/java/lk/project/systemconfig/model/dto/IconDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-model/src/main/java/lk/project/systemconfig/model/dto/MallIconDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-model/src/main/java/lk/project/systemconfig/model/dto/MallModuleConfigDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-model/src/main/java/lk/project/systemconfig/model/dto/MallModuleDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-model/src/main/java/lk/project/systemconfig/model/dto/MallModuleReqDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-model/src/main/java/lk/project/systemconfig/model/dto/MallMoreReqDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-model/src/main/java/lk/project/systemconfig/model/dto/ModReqDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-model/src/main/java/lk/project/systemconfig/model/dto/ModuleConfigDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-model/src/main/java/lk/project/systemconfig/model/dto/ModuleDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-model/src/main/java/lk/project/systemconfig/model/dto/ModuleReqDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-model/src/main/java/lk/project/systemconfig/model/dto/MoreReqDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-model/src/main/java/lk/project/systemconfig/model/dto/MsgChannelParamCfgRespDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-model/src/main/java/lk/project/systemconfig/model/dto/NoticeDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-model/src/main/java/lk/project/systemconfig/model/dto/ShufflingFigureDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-model/src/main/java/lk/project/systemconfig/model/entity/addr/AddrCity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-model/src/main/java/lk/project/systemconfig/model/entity/addr/AddrProvince.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-model/src/main/java/lk/project/systemconfig/model/entity/addr/AddrRegion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-model/src/main/java/lk/project/systemconfig/model/entity/addr/AddrTown.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-model/src/main/java/lk/project/systemconfig/model/entity/base/BaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-model/src/main/java/lk/project/systemconfig/model/entity/base/DictPo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-model/src/main/java/lk/project/systemconfig/model/entity/msg/MsgChannelParamCfgPo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-model/src/main/java/lk/project/systemconfig/model/entity/msg/MsgSceneChannelCfgPo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-model/src/main/java/lk/project/systemconfig/model/entity/msg/MsgSendRecordPo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-model/src/main/java/lk/project/systemconfig/model/entity/msg/MsgSendSceneInfoPo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-model/src/main/java/lk/project/systemconfig/model/entity/sysinfo/IconPo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-model/src/main/java/lk/project/systemconfig/model/entity/sysinfo/MallIconPo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-model/src/main/java/lk/project/systemconfig/model/entity/sysinfo/MallModuleConfigPo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-model/src/main/java/lk/project/systemconfig/model/entity/sysinfo/MallModulePo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-model/src/main/java/lk/project/systemconfig/model/entity/sysinfo/ModuleConfigPo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-model/src/main/java/lk/project/systemconfig/model/entity/sysinfo/ModulePo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-model/src/main/java/lk/project/systemconfig/model/entity/sysinfo/NoticePo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-model/src/main/java/lk/project/systemconfig/model/entity/sysinfo/ShufflingFigurePo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-model/src/main/java/lk/project/systemconfig/model/entity/sysinfo/SystemTagPo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-model/src/main/java/lk/project/systemconfig/model/entity/sysinfo/TenantPaymentParamConfigPo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-service/src/main/java/lk/project/systemconfig/service/IAddrCityService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-service/src/main/java/lk/project/systemconfig/service/IAddrProvinceService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-service/src/main/java/lk/project/systemconfig/service/IAddrRegionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-service/src/main/java/lk/project/systemconfig/service/IAddrTownService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-service/src/main/java/lk/project/systemconfig/service/IConService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-service/src/main/java/lk/project/systemconfig/service/IMallConService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-service/src/main/java/lk/project/systemconfig/service/IMallModuleConfigService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-service/src/main/java/lk/project/systemconfig/service/IMallModuleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-service/src/main/java/lk/project/systemconfig/service/IModuleConfigService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-service/src/main/java/lk/project/systemconfig/service/IModuleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-service/src/main/java/lk/project/systemconfig/service/IMsgChannelConfigService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-service/src/main/java/lk/project/systemconfig/service/IMsgSceneService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-service/src/main/java/lk/project/systemconfig/service/INoticeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-service/src/main/java/lk/project/systemconfig/service/ISystemShufflingFigureService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-service/src/main/java/lk/project/systemconfig/service/ITenantPaymentParamConfigService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-service/src/main/java/lk/project/systemconfig/service/impl/msg/MsgChannelConfigServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-service/src/main/java/lk/project/systemconfig/service/impl/sysinfo/AddrCityServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-service/src/main/java/lk/project/systemconfig/service/impl/sysinfo/AddrProvinceServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-service/src/main/java/lk/project/systemconfig/service/impl/sysinfo/AddrRegionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-service/src/main/java/lk/project/systemconfig/service/impl/sysinfo/AddrTownServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-service/src/main/java/lk/project/systemconfig/service/impl/sysinfo/IconServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-service/src/main/java/lk/project/systemconfig/service/impl/sysinfo/MallModuleConfigServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-service/src/main/java/lk/project/systemconfig/service/impl/sysinfo/MallModuleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-service/src/main/java/lk/project/systemconfig/service/impl/sysinfo/MallconServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-service/src/main/java/lk/project/systemconfig/service/impl/sysinfo/ModuleConfigServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-service/src/main/java/lk/project/systemconfig/service/impl/sysinfo/ModuleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-service/src/main/java/lk/project/systemconfig/service/impl/sysinfo/NoticeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-service/src/main/java/lk/project/systemconfig/service/impl/sysinfo/SystemShufflingFigureServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-service/src/main/java/lk/project/systemconfig/service/impl/sysinfo/TenantPaymentParamConfigServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-web/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-web/src/main/java/lk/project/systemconfig/web/controller/AddrController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-web/src/main/java/lk/project/systemconfig/web/controller/IconManageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-web/src/main/java/lk/project/systemconfig/web/controller/MallIconManageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-web/src/main/java/lk/project/systemconfig/web/controller/MallModuleConfigController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-web/src/main/java/lk/project/systemconfig/web/controller/MallModuleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-web/src/main/java/lk/project/systemconfig/web/controller/MobileIconController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-web/src/main/java/lk/project/systemconfig/web/controller/MobileMallIconController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-web/src/main/java/lk/project/systemconfig/web/controller/MobileMallModuleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-web/src/main/java/lk/project/systemconfig/web/controller/MobileModuleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-web/src/main/java/lk/project/systemconfig/web/controller/MobileSysShuffingFigureController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-web/src/main/java/lk/project/systemconfig/web/controller/ModuleConfigController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-web/src/main/java/lk/project/systemconfig/web/controller/ModuleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-web/src/main/java/lk/project/systemconfig/web/controller/MsgChannelConfigController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-web/src/main/java/lk/project/systemconfig/web/controller/NoticeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-web/src/main/java/lk/project/systemconfig/web/controller/SpecificDateController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-web/src/main/java/lk/project/systemconfig/web/controller/SysShufflingFigureController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-web/src/main/java/lk/project/systemconfig/web/controller/TenantPayTokenController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-web/src/main/java/lk/project/systemconfig/web/utils/CustomerHttpUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-web/src/main/java/lk/project/systemconfig/web/utils/CustomerSignUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-web/src/main/resources/application-dev.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-web/src/main/resources/application-local.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-web/src/main/resources/application-pro.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-web/src/main/resources/application-qa.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-web/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-web/src/main/resources/ceres-web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-web/src/main/resources/dubbo-consumer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-web/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-web/src/main/resources/spring-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-web/src/main/webapp/WEB-INF/views/user.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk-project-systemconfig-web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-support/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-support1/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-feign/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/myspringclound$EurekaSupport1Application.ic" NAME="EurekaSupport1Application Coverage Results" MODIFIED="1557211460617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/myspringclound$EurekaSupportApplication.ic" NAME="EurekaSupportApplication Coverage Results" MODIFIED="1557136488402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/myspringclound$EurekaFeignApplication.ic" NAME="EurekaFeignApplication Coverage Results" MODIFIED="1557211340377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/myspringclound$EurekaServerApplication.ic" NAME="EurekaServerApplication Coverage Results" MODIFIED="1557199151114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="211" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-support/src/main/java/com/example/eurekasupport/controller/TestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="14" column="5" selection-start-line="9" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-feign/src/main/java/com/example/eurekafeign/config/FeignConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="11" column="31" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-support1/src/main/java/com/example/eurekasupport1/controller/TestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-support1/src/main/java/com/example/eurekasupport1/EurekaSupport1Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-support/src/main/java/com/example/eurekasupport/EurekaSupportApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-feign/src/main/java/com/example/eurekafeign/EurekaFeignApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-feign/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/eureka-feign/src/main/java/com/example/eurekafeign/feign/EurekaClientFeign.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-feign/src/main/java/com/example/eurekafeign/feign/EurekaClientFeignFallback.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-feign/src/main/java/com/example/eurekafeign/controller/FeignController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server/src/main/java/com/example/eurekaserver/EurekaServerApplication.java" />
+        <option value="$PROJECT_DIR$/eureka-support/src/main/java/com/example/eurekasupport/EurekaSupportApplication.java" />
+        <option value="$PROJECT_DIR$/eureka-support/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-support1/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/eureka-support1/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/eureka-support/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/eureka-support1/src/main/java/com/example/eurekasupport1/EurekaSupport1Application.java" />
+        <option value="$PROJECT_DIR$/eureka-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-feign/src/main/java/com/example/eurekafeign/config/FeignConfig.java" />
+        <option value="$PROJECT_DIR$/eureka-feign/src/main/java/com/example/eurekafeign/service/feignService.java" />
+        <option value="$PROJECT_DIR$/eureka-feign/src/main/java/com/example/eurekafeign/service/FeignService.java" />
+        <option value="$PROJECT_DIR$/eureka-feign/src/main/java/com/example/eurekafeign/controller/FeignController.java" />
+        <option value="$PROJECT_DIR$/eureka-support/src/main/java/com/example/eurekasupport/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/eureka-support1/src/main/java/com/example/eurekasupport1/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/eureka-feign/src/main/java/com/example/eurekafeign/feign/EurekaClientFeign.java" />
+        <option value="$PROJECT_DIR$/eureka-feign/src/main/java/com/example/eurekafeign/feign/EurekaClientFeignFallback.java" />
+        <option value="$PROJECT_DIR$/eureka-feign/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/eureka-feign/src/main/java/com/example/eurekafeign/EurekaFeignApplication.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="eureka-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="eureka-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="eureka-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="jar" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="myspringclound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myspringclound" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myspringclound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myspringclound" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-feign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myspringclound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myspringclound" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myspringclound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myspringclound" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myspringclound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myspringclound" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myspringclound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myspringclound" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myspringclound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myspringclound" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myspringclound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myspringclound" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekafeign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myspringclound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myspringclound" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekafeign" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myspringclound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myspringclound" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekafeign" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myspringclound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myspringclound" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekafeign" type="462c0819:PsiDirectoryNode" />
+              <item name="feign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myspringclound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myspringclound" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekafeign" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myspringclound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myspringclound" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myspringclound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myspringclound" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myspringclound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myspringclound" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name=".mvn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myspringclound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myspringclound" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myspringclound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myspringclound" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myspringclound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myspringclound" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myspringclound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myspringclound" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myspringclound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myspringclound" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myspringclound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myspringclound" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekaserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myspringclound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myspringclound" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myspringclound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myspringclound" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-support" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myspringclound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myspringclound" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-support" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myspringclound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myspringclound" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-support" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myspringclound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myspringclound" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-support" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myspringclound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myspringclound" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-support" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myspringclound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myspringclound" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-support" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myspringclound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myspringclound" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-support" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekasupport" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myspringclound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myspringclound" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-support" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekasupport" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myspringclound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myspringclound" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-support" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myspringclound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myspringclound" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-support1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myspringclound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myspringclound" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-support1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myspringclound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myspringclound" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-support1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myspringclound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myspringclound" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-support1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myspringclound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myspringclound" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-support1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myspringclound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myspringclound" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-support1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myspringclound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myspringclound" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-support1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekasupport1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myspringclound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myspringclound" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-support1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekasupport1" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557282213495" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.eurekasupport1.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\项目\myspringclound\eureka-support1\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.EurekaSupportApplication">
+    <configuration name="EurekaFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-feign" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eurekafeign.EurekaFeignApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eurekaserver.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaSupport1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-support1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eurekasupport1.EurekaSupport1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaSupportApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-support" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eurekasupport.EurekaSupportApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyspringcloundApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="myspringclound" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.myspringclound.MyspringcloundApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\86150\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e4088d46-6941-471e-ae12-7610718a64e9" name="Default Changelist" comment="" />
+      <created>1557133780041</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557133780041</updated>
+      <workItem from="1557133784650" duration="3158000" />
+      <workItem from="1557192842191" duration="3764000" />
+      <workItem from="1557198218336" duration="9182000" />
+      <workItem from="1557279117515" duration="2416000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="18520000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23123324" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" sideWeight="0.49858356" visible="true" weight="0.02010724" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Coverage" order="5" sideWeight="0.50141644" side_tool="true" visible="true" weight="0.02010724" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/eureka-support1/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/eureka-support/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="55" column="27" selection-start-line="45" selection-start-column="4" selection-end-line="55" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-support1/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="27" column="66" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-support1/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="54" selection-start-line="43" selection-start-column="3" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-feign/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-support/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-feign/src/main/java/com/example/eurekafeign/service/FeignService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/example/eurekaserver/EurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-support/src/main/java/com/example/eurekasupport/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="5" selection-start-line="9" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-feign/src/main/java/com/example/eurekafeign/config/FeignConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-support1/src/main/java/com/example/eurekasupport1/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-support1/src/main/java/com/example/eurekasupport1/EurekaSupport1Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-feign/src/main/java/com/example/eurekafeign/EurekaFeignApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-feign/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-feign/src/main/java/com/example/eurekafeign/controller/FeignController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-support/src/main/java/com/example/eurekasupport/EurekaSupportApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-feign/src/main/java/com/example/eurekafeign/feign/EurekaClientFeignFallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-feign/src/main/java/com/example/eurekafeign/feign/EurekaClientFeign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>myspringclound</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

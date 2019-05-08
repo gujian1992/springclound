@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-feign" />
+        <module name="eureka-server" />
+        <module name="eureka-support" />
+        <module name="eureka-support1" />
+        <module name="myspringclound" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eureka-feign" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="eureka-support" target="1.8" />
+      <module name="eureka-support1" target="1.8" />
+      <module name="myspringclound" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eureka-feign" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="eureka-support" options="-parameters" />
+      <module name="eureka-support1" options="-parameters" />
+      <module name="myspringclound" options="" />
+    </option>
+  </component>
+</project>
